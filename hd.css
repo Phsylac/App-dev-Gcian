@@ -1,0 +1,39 @@
+body{
+  background-color: #F39C12;
+}
+
+h1{
+	font-family: ROGFonts;
+	font-size: 100px;
+	color: slateblue;
+	text-shadow: 2px 2px 8px ##000000;
+	text-align: center;
+	top: 20%;
+	transform: translateY(-20);
+	position: absolute;
+	width: 99%;
+}
+
+@font-face{
+	font-family: ROGFonts; src: url('RogFonts.TTF');
+}
+
+@font-face{
+	font-family: Virtual DJ; src: url('Vdj.TTF');
+}
+
+
+.content ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+
+}
+
+.content ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Virtual DJ;
+	font-size: 40px;
+}
